@@ -1,0 +1,10 @@
+#!/bin/ksh
+
+#to run this script: sbatch batch_run_python_script.sh 
+
+
+#python compute_ECMWF_ensemble_members_track_intensity_statistics_multi-year_with_confidence_intervals.py
+
+python compute_ECMWF_ensemble_members_translation_speed_statistics_multi-year_with_confidence_intervals.py
+
+#python extract_tc_related_forecast_precip_ECMWF.py
